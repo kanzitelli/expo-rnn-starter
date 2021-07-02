@@ -10,7 +10,7 @@ index cf6a0b1..bca659f 100644
 +{
 +  [super didMoveToWindow];
 +  RCTScrollView *scrollView = (RCTScrollView *)self.superview.superview;
-+  [scrollView updateContentOffsetIfNeeded];
++  [scrollView updateContentSizeIfNeeded];
 +}
 +
  - (void)reactSetFrame:(CGRect)frame

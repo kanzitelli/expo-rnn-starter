@@ -3,19 +3,19 @@
 buildscript {
     ext {
         RNNKotlinVersion = "1.4.31"
-        buildToolsVersion = "29.0.3"
+        buildToolsVersion = "30.0.2"
         minSdkVersion = 21
-        compileSdkVersion = 29
-        targetSdkVersion = 29
+        compileSdkVersion = 30
+        targetSdkVersion = 30
         ndkVersion = "20.1.5948944"
     }
     repositories {
         google()
-        jcenter()
+        mavenCentral()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.4.31"
-        classpath("com.android.tools.build:gradle:4.1.0")
+        classpath("com.android.tools.build:gradle:4.2.1")
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -34,7 +34,6 @@ allprojects {
         }
 
         google()
-        jcenter()
         maven { url 'https://www.jitpack.io' }
     }
 }

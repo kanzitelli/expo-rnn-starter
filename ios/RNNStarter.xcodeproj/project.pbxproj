@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* RNNStarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNNStarterTests.m */; };
-		104DA78976C677B3F689BD57 /* libPods-RNNStarter-RNNStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34CF669A3AFD69DA33AE8A00 /* libPods-RNNStarter-RNNStarterTests.a */; };
+		0C1D0469268F902100C8E704 /* dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1D0468268F902100C8E704 /* dummy.swift */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1D80BD42EF5A5D0CDA11F218 /* libPods-RNNStarter-RNNStarterTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF73490826EA53BE1DE956F2 /* libPods-RNNStarter-RNNStarterTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		EA7E0E496966851CF5FB769E /* libPods-RNNStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E4B0B966626B5ACB0ACE4C4 /* libPods-RNNStarter.a */; };
+		E9909FCFDF0B3D52811DCE71 /* libPods-RNNStarter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB91265BA5BA978C44E1963C /* libPods-RNNStarter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,8 @@
 		00E356EE1AD99517003FC87E /* RNNStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNNStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNNStarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNNStarterTests.m; sourceTree = "<group>"; };
+		0C1D0467268F902000C8E704 /* RNNStarter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNNStarter-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C1D0468268F902100C8E704 /* dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dummy.swift; sourceTree = "<group>"; };
 		0CA5469BC6F1BCB6461A16B9 /* Pods-RNNStarter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNStarter.debug.xcconfig"; path = "Target Support Files/Pods-RNNStarter/Pods-RNNStarter.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNNStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNNStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNNStarter/AppDelegate.h; sourceTree = "<group>"; };
@@ -37,11 +40,11 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNNStarter/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNNStarter/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNNStarter/main.m; sourceTree = "<group>"; };
-		34CF669A3AFD69DA33AE8A00 /* libPods-RNNStarter-RNNStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNStarter-RNNStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B18AB159AC37BF63A184D9 /* Pods-RNNStarter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNStarter.release.xcconfig"; path = "Target Support Files/Pods-RNNStarter/Pods-RNNStarter.release.xcconfig"; sourceTree = "<group>"; };
-		7E4B0B966626B5ACB0ACE4C4 /* libPods-RNNStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNNStarter/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2058CE9670B7BB24DB905DE /* Pods-RNNStarter-RNNStarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNStarter-RNNStarterTests.release.xcconfig"; path = "Target Support Files/Pods-RNNStarter-RNNStarterTests/Pods-RNNStarter-RNNStarterTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF73490826EA53BE1DE956F2 /* libPods-RNNStarter-RNNStarterTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNStarter-RNNStarterTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB91265BA5BA978C44E1963C /* libPods-RNNStarter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNNStarter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEC18942B9DE927A43D86ED /* Pods-RNNStarter-RNNStarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNNStarter-RNNStarterTests.debug.xcconfig"; path = "Target Support Files/Pods-RNNStarter-RNNStarterTests/Pods-RNNStarter-RNNStarterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -51,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				104DA78976C677B3F689BD57 /* libPods-RNNStarter-RNNStarterTests.a in Frameworks */,
+				1D80BD42EF5A5D0CDA11F218 /* libPods-RNNStarter-RNNStarterTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7E0E496966851CF5FB769E /* libPods-RNNStarter.a in Frameworks */,
+				E9909FCFDF0B3D52811DCE71 /* libPods-RNNStarter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +95,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				0C1D0468268F902100C8E704 /* dummy.swift */,
+				0C1D0467268F902000C8E704 /* RNNStarter-Bridging-Header.h */,
 			);
 			name = RNNStarter;
 			sourceTree = "<group>";
@@ -100,8 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				7E4B0B966626B5ACB0ACE4C4 /* libPods-RNNStarter.a */,
-				34CF669A3AFD69DA33AE8A00 /* libPods-RNNStarter-RNNStarterTests.a */,
+				DB91265BA5BA978C44E1963C /* libPods-RNNStarter.a */,
+				CF73490826EA53BE1DE956F2 /* libPods-RNNStarter-RNNStarterTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +212,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -411,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				0C1D0469268F902100C8E704 /* dummy.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EAEC18942B9DE927A43D86ED /* Pods-RNNStarter-RNNStarterTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -457,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2058CE9670B7BB24DB905DE /* Pods-RNNStarter-RNNStarterTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = RNNStarterTests/Info.plist;
@@ -498,6 +506,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNNStarter;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNNStarter-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -524,6 +533,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = RNNStarter;
+				SWIFT_OBJC_BRIDGING_HEADER = "RNNStarter-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
